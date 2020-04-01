@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mha0zEAf7uCnt3Tikx8oCmTBssCA7xZv9mGb+LSjEBVMmZS/JIgAstzWuSOlLcfB0jvM7prj1VnG0oQyXgiDbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\authenticationservice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Floris\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}
