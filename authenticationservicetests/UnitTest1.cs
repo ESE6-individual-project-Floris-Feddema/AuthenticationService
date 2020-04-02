@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace authenticationservicetests
+namespace authenticationserviceTests
 {
     public class UnitTest1
     {

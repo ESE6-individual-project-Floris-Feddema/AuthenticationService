@@ -53,8 +53,4 @@ C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\
 C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\SharpCompress.dll
 C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
-C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\xunit.assert.dll
-C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\xunit.core.dll
-C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
 C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\obj\Debug\netcoreapp3.1\authenticationservice.csproj.CopyComplete

@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -86,10 +86,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
             }
           },
           "imports": [
