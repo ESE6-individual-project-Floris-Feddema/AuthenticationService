@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using authenticationservice.Repositories;
 
@@ -11,7 +12,6 @@ namespace authenticationservice.Services
         public AuthService(IUserRepository repository)
         {
             this._repository = repository;
-            Refresh();
         }
         
         public async Task<User> Authenticate(Google.Apis.Auth.GoogleJsonWebSignature.Payload payload)
@@ -32,7 +32,7 @@ namespace authenticationservice.Services
 
         }
 
-        private async Task Refresh()
+        public async Task Fill()
         {
             var list = await _repository.Get();
             if (list.Count != 0) return;
@@ -57,6 +57,11 @@ namespace authenticationservice.Services
                 Name = "Test Person3", 
                 Email = "testperson3@gmail.com",
             }); 
+        }
+
+        public async Task<List<User>> Get()
+        {
+            return await _repository.Get();
         }
     }
 }

@@ -14,8 +14,8 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace authenticationservice.Controllers
 
-{    [Route("api/v1/[controller]")]
-    public class AuthenticationController : Controller
+{    [Route("[controller]")]
+    public class AuthenticationController : ControllerBase
     {
         private readonly IAuthService _authService;
 
@@ -59,6 +59,21 @@ namespace authenticationservice.Controllers
                 BadRequest(ex.Message);
             }
             return BadRequest();
+        }
+        
+        [AllowAnonymous]
+        [HttpGet("fill")]
+        public async Task<IActionResult> Fill()
+        {
+            await _authService.Fill();
+            return Ok();
+        }
+        
+        [AllowAnonymous]
+        [HttpGet("users")]
+        public async Task<IActionResult> Get()
+        {
+            return Ok(await _authService.Get());
         }
     }
 }
