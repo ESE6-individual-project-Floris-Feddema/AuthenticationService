@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585745053206</updated>
       <workItem from="1585745056653" duration="17616000" />
-      <workItem from="1585816516916" duration="2449000" />
+      <workItem from="1585816516916" duration="2738000" />
     </task>
     <servers />
   </component>
