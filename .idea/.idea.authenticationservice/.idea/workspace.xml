@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="" />
+    <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +18,9 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationserviceTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettigns.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/1/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3689EAD4-2DF5-4FC5-9210-AB09C2879459/6/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/24/JsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
@@ -40,7 +44,6 @@
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
@@ -48,8 +51,11 @@
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
         <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservicetests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
+        <option value="$PROJECT_DIR$/authenticationserviceTests/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585745053206</updated>
       <workItem from="1585745056653" duration="17616000" />
-      <workItem from="1585816516916" duration="2738000" />
+      <workItem from="1585816516916" duration="5456000" />
     </task>
     <servers />
   </component>
@@ -119,27 +125,38 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585745083785">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585745083785" />
-    <state width="2517" height="233" key="GridCell.Tab.0.bottom" timestamp="1585819429548">
+    <state width="1234" height="233" key="GridCell.Tab.0.bottom" timestamp="1585820314941">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="233" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585819429548" />
-    <state width="2517" height="233" key="GridCell.Tab.0.center" timestamp="1585819429548">
+    <state width="1234" height="233" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
+    <state width="1234" height="233" key="GridCell.Tab.0.center" timestamp="1585820314941">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="233" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585819429548" />
-    <state width="2517" height="233" key="GridCell.Tab.0.left" timestamp="1585819429548">
+    <state width="1234" height="233" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
+    <state width="1234" height="233" key="GridCell.Tab.0.left" timestamp="1585820314941">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="233" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585819429548" />
-    <state width="2517" height="233" key="GridCell.Tab.0.right" timestamp="1585819429548">
+    <state width="1234" height="233" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
+    <state width="1234" height="233" key="GridCell.Tab.0.right" timestamp="1585820314941">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="233" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585819429548" />
+    <state width="1234" height="233" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
     <state width="1235" height="344" key="GridCell.Tab.1.bottom" timestamp="1585817056764">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -204,6 +221,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1235" height="344" key="GridCell.Tab.4.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
+    <state x="1512" y="255" key="Rider.ProjectTemplateDialog.Size" timestamp="1585822790458">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1512" y="255" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585822790458" />
     <state x="1748" y="208" key="RiderGenerateDialog" timestamp="1585755139707">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
