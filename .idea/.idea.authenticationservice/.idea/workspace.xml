@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/authenticationservice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,6 @@
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
@@ -54,6 +53,7 @@
         <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585745053206</updated>
       <workItem from="1585745056653" duration="17616000" />
-      <workItem from="1585816516916" duration="3398000" />
+      <workItem from="1585816516916" duration="3737000" />
     </task>
     <servers />
   </component>

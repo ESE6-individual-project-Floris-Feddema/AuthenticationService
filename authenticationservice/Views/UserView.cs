@@ -1,7 +1,7 @@
 namespace authenticationservice.Views
-{
-    public class UserView
-    {
-        public string TokenId {get; set;}
-    }
-}
+   {
+       public class UserView
+       {
+           public string TokenId {get; set;}
+       }
+   }
