@@ -30,7 +30,6 @@ namespace authenticationservice.Controllers
         {
             try
             {
-                //SimpleLogger.Log("userView = " + userView.tokenId);
                 var payload = GoogleJsonWebSignature.ValidateAsync(userView.TokenId, new GoogleJsonWebSignature.ValidationSettings()).Result;
                 var user = await _authService.Authenticate(payload);
 
