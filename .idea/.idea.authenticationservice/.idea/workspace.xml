@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationserviceTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +57,7 @@
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
         <option value="$PROJECT_DIR$/authenticationserviceTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -116,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585745053206</updated>
       <workItem from="1585745056653" duration="17616000" />
-      <workItem from="1585816516916" duration="5456000" />
+      <workItem from="1585816516916" duration="6906000" />
     </task>
     <servers />
   </component>
