@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Domain/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,16 +34,16 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationserviceTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23C4E601-3839-4471-9686-3C89842D5158/9b/b8786865/CollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/36/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/1/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3689EAD4-2DF5-4FC5-9210-AB09C2879459/6/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/24/JsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/25/JsonWebToken.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -40,24 +55,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/User.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettigns.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
         <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
         <option value="$PROJECT_DIR$/authenticationserviceTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
+        <option value="$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
       </list>
     </option>
   </component>
@@ -132,7 +147,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -143,22 +160,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585745083785" />
-    <state width="1234" height="233" key="GridCell.Tab.0.bottom" timestamp="1585820314941">
+    <state width="1234" height="344" key="GridCell.Tab.0.bottom" timestamp="1585830506833">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="233" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
-    <state width="1234" height="233" key="GridCell.Tab.0.center" timestamp="1585820314941">
+    <state width="1234" height="344" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
+    <state width="1234" height="344" key="GridCell.Tab.0.center" timestamp="1585830506833">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="233" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
-    <state width="1234" height="233" key="GridCell.Tab.0.left" timestamp="1585820314941">
+    <state width="1234" height="344" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
+    <state width="1234" height="344" key="GridCell.Tab.0.left" timestamp="1585830506833">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="233" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
-    <state width="1234" height="233" key="GridCell.Tab.0.right" timestamp="1585820314941">
+    <state width="1234" height="344" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
+    <state width="1234" height="344" key="GridCell.Tab.0.right" timestamp="1585830506833">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="233" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585820314941" />
+    <state width="1234" height="344" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
     <state width="1235" height="344" key="GridCell.Tab.1.bottom" timestamp="1585817056764">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
