@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservicetests/authenticationservicetests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetests/authenticationservicetests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +51,10 @@
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
         <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585745053206</updated>
       <workItem from="1585745056653" duration="17616000" />
-      <workItem from="1585816516916" duration="3737000" />
+      <workItem from="1585816516916" duration="4001000" />
     </task>
     <servers />
   </component>
