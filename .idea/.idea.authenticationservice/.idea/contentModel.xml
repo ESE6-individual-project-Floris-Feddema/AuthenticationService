@@ -20,7 +20,6 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AuthenticationController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="DatastoreSettings" t="Include">
           <e p="UserstoreDatabaseSettings.cs" t="Include" />
@@ -29,7 +28,6 @@
         <e p="Domain" t="Include">
           <e p="AppSettings.cs" t="Include" />
           <e p="User.cs" t="Include" />
-          <e p="WeatherForecast.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
           <e p="Security.cs" t="Include" />
