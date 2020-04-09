@@ -1,6 +1,6 @@
 namespace authenticationservice.Views
    {
-       public class UserView
+       public class GoogleUserView
        {
            public string TokenId {get; set;}
        }

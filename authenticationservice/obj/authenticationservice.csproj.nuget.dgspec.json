@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -46,6 +46,10 @@
             "Google.Apis.Auth": {
               "target": "Package",
               "version": "[1.44.1, )"
+            },
+            "Konscious.Security.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",

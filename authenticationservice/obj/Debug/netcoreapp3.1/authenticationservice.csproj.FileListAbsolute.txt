@@ -54,3 +54,5 @@ C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\
 C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\SharpCompress.dll
 C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\obj\Debug\netcoreapp3.1\authenticationservice.csproj.CopyComplete
+C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\Floris\Documents\repos\authenticationservice\authenticationservice\bin\Debug\netcoreapp3.1\Konscious.Security.Cryptography.Blake2.dll

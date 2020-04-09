@@ -2,9 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Domain/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Domain/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,50 +54,69 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23C4E601-3839-4471-9686-3C89842D5158/9b/b8786865/CollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/36/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/1/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3689EAD4-2DF5-4FC5-9210-AB09C2879459/6/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/24/JsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/25/JsonWebToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/authenticationservice/Domain/User.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettigns.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
         <option value="$PROJECT_DIR$/authenticationserviceTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
+        <option value="$PROJECT_DIR$/.dockerignore" />
+        <option value="$PROJECT_DIR$/authenticationservice/Dockerfile" />
+        <option value="$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
+        <option value="$PROJECT_DIR$/authenticationservice/Domain/User.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/JwtGenerator.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/IJwtHelper.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" />
       </list>
     </option>
   </component>
@@ -75,8 +133,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
+    <property name="ts.external.directory.path" value="C:\Users\Floris\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.authenticationservice: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.authenticationservice">
     <configuration name="authenticationservice" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -107,6 +167,42 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="--rm" />
+          <option name="sourceFilePath" value="authenticationservice/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.authenticationservice" />
+      <item itemvalue=".NET Launch Settings Profile.authenticationservice: IIS Express" />
+      <item itemvalue="Docker.Unnamed" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,6 +216,10 @@
       <updated>1585745053206</updated>
       <workItem from="1585745056653" duration="17616000" />
       <workItem from="1585816516916" duration="6906000" />
+      <workItem from="1586165585755" duration="283000" />
+      <workItem from="1586273931781" duration="688000" />
+      <workItem from="1586275067003" duration="2421000" />
+      <workItem from="1586419922979" duration="16729000" />
     </task>
     <servers />
   </component>
@@ -142,90 +242,103 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585745083785">
+    <state x="-1231" y="178" key="#Docker" timestamp="1586275217992">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1231" y="178" key="#Docker/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586275217992" />
+    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586281425169">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585745083785" />
-    <state width="1234" height="344" key="GridCell.Tab.0.bottom" timestamp="1585830506833">
+    <state x="-1369" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586275291650" />
+    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586281425169" />
+    <state x="1028" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586280783089">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="344" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
-    <state width="1234" height="344" key="GridCell.Tab.0.center" timestamp="1585830506833">
+    <state x="1028" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586280783089" />
+    <state width="440" height="466" key="DebuggerActiveHint" timestamp="1586433886019">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="344" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
-    <state width="1234" height="344" key="GridCell.Tab.0.left" timestamp="1585830506833">
+    <state width="440" height="466" key="DebuggerActiveHint/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586433886019" />
+    <state width="1234" height="236" key="GridCell.Tab.0.bottom" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="344" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
-    <state width="1234" height="344" key="GridCell.Tab.0.right" timestamp="1585830506833">
+    <state width="1234" height="236" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.0.center" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="344" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585830506833" />
-    <state width="1235" height="344" key="GridCell.Tab.1.bottom" timestamp="1585817056764">
+    <state width="1234" height="236" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.0.left" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056764" />
-    <state width="1235" height="344" key="GridCell.Tab.1.center" timestamp="1585817056764">
+    <state width="1234" height="236" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.0.right" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056764" />
-    <state width="1235" height="344" key="GridCell.Tab.1.left" timestamp="1585817056764">
+    <state width="1234" height="236" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.1.bottom" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056764" />
-    <state width="1235" height="344" key="GridCell.Tab.1.right" timestamp="1585817056764">
+    <state width="1234" height="236" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.1.center" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056764" />
-    <state width="1235" height="344" key="GridCell.Tab.2.bottom" timestamp="1585817056765">
+    <state width="1234" height="236" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.1.left" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.2.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056765" />
-    <state width="1235" height="344" key="GridCell.Tab.2.center" timestamp="1585817056765">
+    <state width="1234" height="236" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.1.right" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.2.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056765" />
-    <state width="1235" height="344" key="GridCell.Tab.2.left" timestamp="1585817056765">
+    <state width="1234" height="236" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.2.bottom" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.2.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056765" />
-    <state width="1235" height="344" key="GridCell.Tab.2.right" timestamp="1585817056765">
+    <state width="1234" height="236" key="GridCell.Tab.2.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.2.center" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.2.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056765" />
-    <state width="1235" height="344" key="GridCell.Tab.3.bottom" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.2.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.2.left" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.3.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
-    <state width="1235" height="344" key="GridCell.Tab.3.center" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.2.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.2.right" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.3.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
-    <state width="1235" height="344" key="GridCell.Tab.3.left" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.2.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.3.bottom" timestamp="1586440771430">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.3.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
-    <state width="1235" height="344" key="GridCell.Tab.3.right" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.3.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771430" />
+    <state width="1234" height="236" key="GridCell.Tab.3.center" timestamp="1586440771429">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.3.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
-    <state width="1235" height="344" key="GridCell.Tab.4.bottom" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.3.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771429" />
+    <state width="1234" height="236" key="GridCell.Tab.3.left" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.4.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
-    <state width="1235" height="344" key="GridCell.Tab.4.center" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.3.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="236" key="GridCell.Tab.3.right" timestamp="1586440771430">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.4.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
-    <state width="1235" height="344" key="GridCell.Tab.4.left" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.3.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771430" />
+    <state width="1234" height="236" key="GridCell.Tab.4.bottom" timestamp="1586440771430">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.4.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
-    <state width="1235" height="344" key="GridCell.Tab.4.right" timestamp="1585817056766">
+    <state width="1234" height="236" key="GridCell.Tab.4.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771430" />
+    <state width="1234" height="236" key="GridCell.Tab.4.center" timestamp="1586440771430">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="344" key="GridCell.Tab.4.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585817056766" />
+    <state width="1234" height="236" key="GridCell.Tab.4.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771430" />
+    <state width="1234" height="236" key="GridCell.Tab.4.left" timestamp="1586440771430">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="236" key="GridCell.Tab.4.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771430" />
+    <state width="1234" height="236" key="GridCell.Tab.4.right" timestamp="1586440771430">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="236" key="GridCell.Tab.4.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771430" />
     <state x="1512" y="255" key="Rider.ProjectTemplateDialog.Size" timestamp="1585822790458">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -234,5 +347,29 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1748" y="208" key="RiderGenerateDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585755139707" />
+    <state x="-1415" y="162" key="SettingsEditor" timestamp="1586274619154">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1415" y="162" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586274619154" />
+    <state width="404" height="448" key="SwitcherDM" timestamp="1586435160765">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="404" height="448" key="SwitcherDM/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586435160765" />
+    <state x="-1920" y="0" width="1936" height="1027" key="dock-window-1" timestamp="1586423083014">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1920" y="0" width="1936" height="1027" key="dock-window-1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586423083014" />
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-2" timestamp="1586438763714">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-2/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586438763714" />
+    <state x="936" y="240" key="run.anything.popup" timestamp="1586431210513">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586431210513" />
+    <state x="936" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1586432069870">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="936" y="173" width="672" height="676" key="search.everywhere.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586432069870" />
   </component>
 </project>
