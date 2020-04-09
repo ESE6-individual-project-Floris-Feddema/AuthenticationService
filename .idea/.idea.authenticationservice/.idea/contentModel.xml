@@ -19,7 +19,7 @@
         <e p="authenticationservice.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="AuthenticationController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
         </e>
         <e p="DatastoreSettings" t="Include">
           <e p="UserstoreDatabaseSettings.cs" t="Include" />
@@ -30,7 +30,11 @@
           <e p="User.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
-          <e p="Security.cs" t="Include" />
+          <e p="ExtentionMethods.cs" t="Include" />
+          <e p="Hasher.cs" t="Include" />
+          <e p="IHasher.cs" t="Include" />
+          <e p="ITokenGenerator.cs" t="Include" />
+          <e p="TokenGenerator.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -48,11 +52,13 @@
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
-          <e p="AuthService.cs" t="Include" />
-          <e p="IAuthService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
+          <e p="UserLoginView.cs" t="Include" />
+          <e p="UserRegisterView.cs" t="Include" />
           <e p="UserView.cs" t="Include" />
         </e>
       </e>

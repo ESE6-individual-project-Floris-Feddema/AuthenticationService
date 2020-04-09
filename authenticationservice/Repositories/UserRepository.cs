@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using authenticationservice.DatastoreSettings;
+using authenticationservice.Domain;
 using MongoDB.Driver;
 
 namespace authenticationservice.Repositories

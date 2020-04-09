@@ -1,8 +1,5 @@
-using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace authenticationservice
 {
@@ -10,10 +7,6 @@ namespace authenticationservice
     {
         public static void Main(string[] args)
         {
-            var json = File.ReadAllText(@"appsettings.json");
-            var o = JObject.Parse(@json);
-            AppSettings.Settings = JsonConvert.DeserializeObject<AppSettings>(o["AppSettings"].ToString());
-
             CreateHostBuilder(args).Build().Run();
         }
 
