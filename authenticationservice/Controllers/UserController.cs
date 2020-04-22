@@ -24,7 +24,7 @@ namespace authenticationservice.Controllers
             try
             {
                 var user = await _service.Insert(view.Name, view.Email, view.Password);
-                return Ok(new {user.Name, user.Email});
+                return Ok(user);
             }
             catch (Exception e)
             {
@@ -47,7 +47,7 @@ namespace authenticationservice.Controllers
         }
         
         [AllowAnonymous]
-        [HttpGet("login")]
+        [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] UserLoginView view)
         {
             try
@@ -62,7 +62,7 @@ namespace authenticationservice.Controllers
         }
 
         [AllowAnonymous]
-        [HttpGet("login/google")]
+        [HttpPost("login/google")]
         public async Task<IActionResult> LoginGoogle([FromBody] GoogleUserView view)
         {
             try
