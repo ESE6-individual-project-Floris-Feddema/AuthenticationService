@@ -1,4 +1,4 @@
-namespace authenticationservice.Controllers
+namespace authenticationservice.Views
 {
     public class UserRegisterView
     {

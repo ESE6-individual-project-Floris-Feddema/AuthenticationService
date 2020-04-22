@@ -7,8 +7,6 @@ namespace authenticationservice.Services
 {
     public interface IUserService
     {
-       Task<List<User>> Get();
-       Task Fill();
        Task<User> Insert(string viewName, string viewEmail, string viewPassword);
        Task<User> Login(string viewEmail, string viewPassword);
        Task<User> InsertGoogle(string viewTokenId);
