@@ -2,48 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Domain/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Domain/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/AuthService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/Security.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettigns.cs" />
@@ -102,7 +66,6 @@
         <option value="$PROJECT_DIR$/authenticationservice/Dockerfile" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/User.cs" />
@@ -117,6 +80,8 @@
         <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +114,7 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
     <configuration name="authenticationservice: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -164,17 +129,17 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
     <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="imageTag" value="" />
           <option name="buildCliOptions" value="" />
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="" />
           <option name="commandLineOptions" value="--rm" />
           <option name="sourceFilePath" value="authenticationservice/Dockerfile" />
         </settings>
@@ -192,12 +157,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -220,6 +180,8 @@
       <workItem from="1586273931781" duration="688000" />
       <workItem from="1586275067003" duration="2421000" />
       <workItem from="1586419922979" duration="16729000" />
+      <workItem from="1586943633768" duration="5531000" />
+      <workItem from="1587038928313" duration="4766000" />
     </task>
     <servers />
   </component>
@@ -259,22 +221,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="440" height="466" key="DebuggerActiveHint/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586433886019" />
-    <state width="1234" height="236" key="GridCell.Tab.0.bottom" timestamp="1586440771428">
+    <state width="1234" height="231" key="GridCell.Tab.0.bottom" timestamp="1586995413804">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="236" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
-    <state width="1234" height="236" key="GridCell.Tab.0.center" timestamp="1586440771428">
+    <state width="1234" height="231" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586995413804" />
+    <state width="1234" height="231" key="GridCell.Tab.0.center" timestamp="1586995413804">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="236" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
-    <state width="1234" height="236" key="GridCell.Tab.0.left" timestamp="1586440771428">
+    <state width="1234" height="231" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586995413804" />
+    <state width="1234" height="231" key="GridCell.Tab.0.left" timestamp="1586995413804">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="236" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
-    <state width="1234" height="236" key="GridCell.Tab.0.right" timestamp="1586440771428">
+    <state width="1234" height="231" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586995413804" />
+    <state width="1234" height="231" key="GridCell.Tab.0.right" timestamp="1586995413804">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="236" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586440771428" />
+    <state width="1234" height="231" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586995413804" />
     <state width="1234" height="236" key="GridCell.Tab.1.bottom" timestamp="1586440771428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

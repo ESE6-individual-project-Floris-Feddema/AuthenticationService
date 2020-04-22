@@ -21,30 +21,6 @@ namespace authenticationservice.Services
             _tokenGenerator = tokenGenerator;
         }
 
-        public async Task Fill()
-        {
-            var list = await _repository.Get();
-            if (list.Count != 0) return;
-
-            await _repository.Create(new User()
-            {
-                Name = "Test 1",
-                Email = "testperson1@gmail.com",
-            });
-            
-            await _repository.Create(new User()
-            {
-                Name = "Test 2",
-                Email = "testperson2@gmail.com",
-            });
-            
-            await _repository.Create(new User()
-            {
-                Name = "Test 2",
-                Email = "testperson2@gmail.com",
-            });
-        }
-
         public async Task<User> Insert(string viewName, string viewEmail, string viewPassword)
         {
             var emailuser = await _repository.Get(viewEmail);
@@ -116,12 +92,6 @@ namespace authenticationservice.Services
 
             user.Token = _tokenGenerator.CreateToken(user.Id);
             return user;
-        }
-
-        public async Task<List<User>> Get()
-        {
-            var list = await _repository.Get();
-            return list.WithoutPasswords();
         }
     }
 }

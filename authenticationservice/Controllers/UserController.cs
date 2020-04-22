@@ -17,14 +17,7 @@ namespace authenticationservice.Controllers
         {
             _service = service;
         }
-
-        [Authorize]
-        [HttpGet]
-        public async Task<IActionResult> Get()
-        {
-            return Ok(await _service.Get());
-        }
-
+        
         [HttpPost]
         public async Task<IActionResult> Insert([FromBody] UserRegisterView view)
         {
@@ -39,7 +32,7 @@ namespace authenticationservice.Controllers
             }
         }
         
-        [HttpPost]
+        [HttpPost("google")]
         public async Task<IActionResult> InsertGoogle([FromBody] GoogleUserView view)
         {
             try
@@ -82,13 +75,5 @@ namespace authenticationservice.Controllers
                 return BadRequest(e.Message);
             }
         }
-
-        [HttpPost("fill")]
-        public async Task<IActionResult> Fill()
-        {
-            await _service.Fill();
-            return Ok();
-        }
-
     }
 }
