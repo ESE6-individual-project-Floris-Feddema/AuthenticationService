@@ -37,7 +37,7 @@ namespace authenticationservice.Repositories
         public async Task Update(Guid id, User userIn) =>
             await _users.ReplaceOneAsync(user => user.Id == id, userIn);
 
-        public async void Remove(User userIn) =>
+        public async Task Remove(User userIn) =>
             await _users.DeleteOneAsync(user => user.Id == userIn.Id);
 
         public async Task Remove(Guid id) => 

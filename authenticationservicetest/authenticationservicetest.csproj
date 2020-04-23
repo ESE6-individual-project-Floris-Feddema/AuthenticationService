@@ -21,8 +21,4 @@
       <ProjectReference Include="..\authenticationservice\authenticationservice.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Repositories" />
-    </ItemGroup>
-
 </Project>
