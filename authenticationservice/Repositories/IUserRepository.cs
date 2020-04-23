@@ -46,7 +46,7 @@ namespace authenticationservice.Repositories
         /// Removes an user
         /// </summary>
         /// <param name="userIn">User to remove</param>
-        void Remove(User userIn);
+        Task Remove(User userIn);
         
         /// <summary>
         /// Removes an user by their Guid

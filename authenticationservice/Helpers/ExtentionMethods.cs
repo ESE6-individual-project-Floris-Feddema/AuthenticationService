@@ -16,6 +16,7 @@ namespace authenticationservice.Helpers
         {
             user.Password = null;
             user.OauthSubject = null;
+            user.OauthIssuer = null;
             user.Salt = null;
             return user;
         }
