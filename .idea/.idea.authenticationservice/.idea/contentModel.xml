@@ -1,70 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Floris\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
+    <e p="$USER_HOME$/.gitignore_global" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.5.0/build/netcoreapp2.1" t="Include">
       <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
     </e>
-    <e p="C:\Users\Floris\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
-    <e p="C:\Users\Floris\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
-    <e p="C:\Users\Floris\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\Floris\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\Floris\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_authenticationservice.1940923907.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.dom.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.dom.iterable.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.collection.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.core.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.generator.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.promise.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2016.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2016.full.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2017.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2017.full.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2017.intl.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2017.object.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2017.string.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2018.asyncgenerator.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2018.asynciterable.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2018.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2018.full.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2018.intl.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2018.promise.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2018.regexp.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2019.array.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2019.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2019.full.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2019.object.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2019.string.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2019.symbol.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2020.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2020.full.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2020.string.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es2020.symbol.wellknown.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es5.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.es6.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.array.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.bigint.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.full.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.intl.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.promise.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.esnext.symbol.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.scripthost.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.webworker.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\AppData\local\JetBrains\Toolbox\apps\Rider\ch-0\193.6494.48\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\Documents\repos\authenticationservice" t="IncludeFlat">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p=".dockerignore" t="Include" />
       <e p="authenticationservice" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -119,6 +63,10 @@
       <e p="authenticationservicetest" t="IncludeRecursive">
         <e p="authenticationservicetest.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="ExtentionsMethodsTest.cs" t="Include" />
+          <e p="HasherTest.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -126,9 +74,11 @@
             </e>
           </e>
         </e>
-        <e p="UnitTest1.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_authenticationservice.-449981874.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>
