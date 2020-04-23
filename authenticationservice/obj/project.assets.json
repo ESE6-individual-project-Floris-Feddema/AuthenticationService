@@ -6748,7 +6748,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "2Z5t70a2SwMsfQDp9KOclaZNyQhfIga2gppq9lIUDM1A4ohTshn4JqT7ir8bvIhXgorWKYDAr6rPzEbi/nTGKg==",
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -8103,28 +8103,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/florisfeddema/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Floris\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/florisfeddema/Documents/repos/authenticatieservice/authenticationservice/authenticationservice.csproj",
+      "projectUniqueName": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\authenticationservice.csproj",
       "projectName": "authenticationservice",
-      "projectPath": "/Users/florisfeddema/Documents/repos/authenticatieservice/authenticationservice/authenticationservice.csproj",
-      "packagesPath": "/Users/florisfeddema/.nuget/packages/",
-      "outputPath": "/Users/florisfeddema/Documents/repos/authenticatieservice/authenticationservice/obj/",
+      "projectPath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\authenticationservice.csproj",
+      "packagesPath": "C:\\Users\\Floris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/florisfeddema/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Floris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8204,7 +8209,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
