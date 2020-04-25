@@ -55,23 +55,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +110,7 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -131,7 +129,6 @@
         <option value="$PROJECT_DIR$/authenticationservice/Services/IAuthService.cs" />
         <option value="$PROJECT_DIR$/.dockerignore" />
         <option value="$PROJECT_DIR$/authenticationservice/Dockerfile" />
-        <option value="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/User.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserView.cs" />
@@ -139,7 +136,6 @@
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/JwtGenerator.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/IJwtHelper.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" />
@@ -156,14 +152,18 @@
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" />
+        <option value="$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" />
       </list>
     </option>
   </component>
@@ -275,6 +275,17 @@
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="395" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="395" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="387" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
       </expand>
       <select />
     </coverage-tree-state>
@@ -315,85 +326,105 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="440" height="466" key="DebuggerActiveHint/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587653493898" />
-    <state width="1258" height="262" key="GridCell.Tab.0.bottom" timestamp="1587656081626">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.0.bottom" timestamp="1587847745198">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745198" />
     <state width="1258" height="262" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
-    <state width="1258" height="262" key="GridCell.Tab.0.center" timestamp="1587656081626">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.0.center" timestamp="1587847745197">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745197" />
     <state width="1258" height="262" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
-    <state width="1258" height="262" key="GridCell.Tab.0.left" timestamp="1587656081626">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.0.left" timestamp="1587847745196">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745196" />
     <state width="1258" height="262" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
-    <state width="1258" height="262" key="GridCell.Tab.0.right" timestamp="1587656081626">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.0.right" timestamp="1587847745197">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745197" />
     <state width="1258" height="262" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
-    <state width="1258" height="262" key="GridCell.Tab.1.bottom" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.1.bottom" timestamp="1587847745200">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745200" />
     <state width="1258" height="262" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.1.center" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.1.center" timestamp="1587847745199">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745199" />
     <state width="1258" height="262" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.1.left" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.1.left" timestamp="1587847745198">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745198" />
     <state width="1258" height="262" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.1.right" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.1.right" timestamp="1587847745199">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745199" />
     <state width="1258" height="262" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.2.bottom" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.2.bottom" timestamp="1587847745202">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745202" />
     <state width="1258" height="262" key="GridCell.Tab.2.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.2.center" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.2.center" timestamp="1587847745201">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745201" />
     <state width="1258" height="262" key="GridCell.Tab.2.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.2.left" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.2.left" timestamp="1587847745200">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745200" />
     <state width="1258" height="262" key="GridCell.Tab.2.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.2.right" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.2.right" timestamp="1587847745201">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745201" />
     <state width="1258" height="262" key="GridCell.Tab.2.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.3.bottom" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.3.bottom" timestamp="1587847745204">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.3.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745204" />
     <state width="1258" height="262" key="GridCell.Tab.3.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.3.center" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.3.center" timestamp="1587847745203">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.3.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745203" />
     <state width="1258" height="262" key="GridCell.Tab.3.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.3.left" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.3.left" timestamp="1587847745202">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.3.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745202" />
     <state width="1258" height="262" key="GridCell.Tab.3.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.3.right" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.3.right" timestamp="1587847745203">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.3.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745203" />
     <state width="1258" height="262" key="GridCell.Tab.3.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.4.bottom" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.4.bottom" timestamp="1587847745205">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.4.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745205" />
     <state width="1258" height="262" key="GridCell.Tab.4.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.4.center" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.4.center" timestamp="1587847745204">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.4.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745204" />
     <state width="1258" height="262" key="GridCell.Tab.4.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.4.left" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.4.left" timestamp="1587847745204">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.4.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745204" />
     <state width="1258" height="262" key="GridCell.Tab.4.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
-    <state width="1258" height="262" key="GridCell.Tab.4.right" timestamp="1587656081627">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1878" height="423" key="GridCell.Tab.4.right" timestamp="1587847745205">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state width="1878" height="423" key="GridCell.Tab.4.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745205" />
     <state width="1258" height="262" key="GridCell.Tab.4.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081627" />
     <state x="1512" y="255" key="Rider.ProjectTemplateDialog.Size" timestamp="1585822790458">
       <screen x="0" y="0" width="2560" height="1040" />
@@ -429,10 +460,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="936" y="240" key="run.anything.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586431210513" />
-    <state x="702" y="200" width="672" height="780" key="search.everywhere.popup" timestamp="1587683961957">
+    <state x="702" y="200" width="672" height="780" key="search.everywhere.popup" timestamp="1587842718794">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="702" y="200" width="672" height="780" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1587683961957" />
+    <state x="702" y="200" width="672" height="780" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1587842718794" />
     <state x="936" y="173" width="672" height="676" key="search.everywhere.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587651388920" />
   </component>
   <component name="XDebuggerManager">

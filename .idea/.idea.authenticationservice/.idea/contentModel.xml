@@ -77,6 +77,7 @@
           <e p="ExtentionsMethodsTest.cs" t="Include" />
           <e p="HasherTest.cs" t="Include" />
           <e p="TokenGeneratorTest.cs" t="Include" />
+          <e p="UserValidator.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
