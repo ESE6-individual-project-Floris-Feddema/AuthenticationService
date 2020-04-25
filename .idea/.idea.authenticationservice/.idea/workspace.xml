@@ -55,27 +55,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservicetest/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/authenticationservicetest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +97,19 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/TokenGeneratorTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -137,7 +138,6 @@
         <option value="$PROJECT_DIR$/authenticationservice/Controllers/AuthenticationController.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/JwtGenerator.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/IJwtHelper.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" />
@@ -149,15 +149,21 @@
         <option value="$PROJECT_DIR$/authenticationservicetest/Services.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Helpers/TokenGeneratorTest.cs" />
-        <option value="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" />
       </list>
     </option>
   </component>
@@ -256,23 +262,18 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="122" />
+    <option name="coveragePercentColumnWidth" value="119" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="272" />
+    <option name="symbolColumnWidth" value="264" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -398,10 +399,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="255" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585822790458" />
-    <state x="1311" y="240" key="RiderGenerateDialog" timestamp="1587684318013">
+    <state x="1311" y="240" key="RiderGenerateDialog" timestamp="1587762502054">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1311" y="240" key="RiderGenerateDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1587684318013" />
+    <state x="1311" y="240" key="RiderGenerateDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1587762502054" />
     <state x="1748" y="208" key="RiderGenerateDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1585755139707" />
     <state x="673" y="162" key="SettingsEditor" timestamp="1587651079307">
       <screen x="0" y="0" width="2560" height="1040" />

@@ -52,6 +52,7 @@ namespace authenticationservice
             
             services.AddTransient<IHasher, Hasher>();
             services.AddTransient<ITokenGenerator, TokenGenerator>();
+            services.AddTransient<IUserValidator, UserValidator>();
 
             services.AddTransient<IUserService, UserService>();
 
