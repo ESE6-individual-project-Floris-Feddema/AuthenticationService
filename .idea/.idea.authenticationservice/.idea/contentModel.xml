@@ -26,12 +26,19 @@
           <e p="AppSettings.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
+        <e p="Exceptions" t="Include">
+          <e p="AlreadyExistsException.cs" t="Include" />
+          <e p="NotFoundException.cs" t="Include" />
+          <e p="NotValidException.cs" t="Include" />
+        </e>
         <e p="Helpers" t="Include">
           <e p="ExtentionMethods.cs" t="Include" />
           <e p="Hasher.cs" t="Include" />
           <e p="IHasher.cs" t="Include" />
           <e p="ITokenGenerator.cs" t="Include" />
+          <e p="IUserValidator.cs" t="Include" />
           <e p="TokenGenerator.cs" t="Include" />
+          <e p="UserValidator.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -70,6 +77,7 @@
           <e p="ExtentionsMethodsTest.cs" t="Include" />
           <e p="HasherTest.cs" t="Include" />
           <e p="TokenGeneratorTest.cs" t="Include" />
+          <e p="UserValidator.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
