@@ -46,6 +46,11 @@ jobs:
         with:
           name: dockerfile-artifact
           path: ./Dockerfile
+      - name: Upload kubernetes artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: kubernetes-artifact
+          path: ./kube_development
   deliver:
     needs: build
     runs-on: ubuntu-18.04
