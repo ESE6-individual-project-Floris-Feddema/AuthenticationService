@@ -16,7 +16,7 @@ spec:
         app: authenticationservice
     spec:
       containers:
-      - image: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/develop
+      - image: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice
         imagePullPolicy: IfNotPresent
         name: authenticationservice
         ports: 
