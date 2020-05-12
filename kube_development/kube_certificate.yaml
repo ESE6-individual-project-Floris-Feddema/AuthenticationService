@@ -1,0 +1,15 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-development
+  namespace: cert-manager
+spec:
+  acme:
+    server: https://acme-v02.api.letsencrypt.org/directory
+    email: floris1996@hotmail.com
+    privateKeySecretRef:
+      name: letsencrypt-develop
+    solvers:
+    - http01:
+        ingress:
+          class: nginx
