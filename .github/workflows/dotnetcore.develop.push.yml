@@ -64,7 +64,7 @@ jobs:
       # Deliver Docker image to Github Packages
       - name: Deliver Docker image
         env:
-          CONTAINER_IMAGE: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/develop:${{ github.sha }}
+          CONTAINER_IMAGE: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:${{ github.sha }}
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}"| docker login docker.pkg.github.com -u ${{ secrets.DOCKER_GITHUB_USERNAME }} --password-stdin
           docker build -t $CONTAINER_IMAGE .
@@ -103,7 +103,7 @@ jobs:
             ./kube_development/kube_ingress.yaml
             ./kube_development/kube_service.yaml
           images: |
-            docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/develop:${{ github.sha }}
+            docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:${{ github.sha }}
           imagepullsecrets:
             github-docker-registry
             

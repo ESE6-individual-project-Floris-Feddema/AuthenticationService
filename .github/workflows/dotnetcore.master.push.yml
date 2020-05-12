@@ -64,8 +64,8 @@ jobs:
       # Deliver Docker image to Github packages
       - name: Deliver Docker image
         env:
-          CONTAINER_IMAGE: docker.pkg.github.com/ese6-individual-project-floris-feddema/webservice/webservice:${{ github.sha }}
-          CONTAINER_IMAGE_LATEST: docker.pkg.github.com/ese6-individual-project-floris-feddema/webservice/webservice:latest
+          CONTAINER_IMAGE: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:${{ github.sha }}
+          CONTAINER_IMAGE_LATEST: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:latest
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ secrets.DOCKER_GITHUB_USERNAME }} --password-stdin
           docker build -t $CONTAINER_IMAGE -t $CONTAINER_IMAGE_LATEST .
