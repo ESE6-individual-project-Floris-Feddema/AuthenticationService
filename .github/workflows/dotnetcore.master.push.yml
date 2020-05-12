@@ -1,0 +1,73 @@
+name: .NET Core push on develop branch
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  build:
+    # The virtual machine that will be used on GitHub
+    runs-on: ubuntu-18.04
+    
+    # Run the steps in a Docker container on the virtual machine
+    container:
+      image: mcr.microsoft.com/dotnet/core/sdk:3.1.201-bionic
+    steps:
+      # Checkout Git repository
+      - uses: actions/checkout@v2
+
+      - name: Get configuration
+        run: gpg --quiet --batch --yes --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output ./authenticationservice/appsettings.json --decrypt ./authenticationservice/appsettings.json.gpg
+
+      # Install the dependencies needed for the project
+      - name: Install dependencies
+        run: dotnet restore
+      
+      # Build the project
+      - name: Build
+        run: dotnet build
+      
+      # Test the project
+      - name: Test
+        run: dotnet test
+      
+      # Publish the release build in the /release folder
+      - name: Publish
+        run: dotnet publish -c Release -o release
+      
+      # Upload the release folder and Dockerfile artifacts to this GitHub workflow for use in the next job
+      - name: Upload release artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: release-artifact
+          path: ./release
+      - name: Upload Dockerfile artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: dockerfile-artifact
+          path: ./Dockerfile
+  deliver:
+    needs: build
+    runs-on: ubuntu-18.04
+    steps:
+      # Download artifacts from GitHub workflow to use in this job
+      - name: Download release artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: release-artifact
+          path: ./release
+      - name: Download Dockerfile artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: dockerfile-artifact
+          path: .
+      # Deliver Docker image to Github packages
+      - name: Deliver Docker image
+        env:
+          CONTAINER_IMAGE: docker.pkg.github.com/ese6-individual-project-floris-feddema/webservice/webservice:${{ github.sha }}
+          CONTAINER_IMAGE_LATEST: docker.pkg.github.com/ese6-individual-project-floris-feddema/webservice/webservice:latest
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ secrets.DOCKER_GITHUB_USERNAME }} --password-stdin
+          docker build -t $CONTAINER_IMAGE -t $CONTAINER_IMAGE_LATEST .
+          docker push $CONTAINER_IMAGE
+          docker push $CONTAINER_IMAGE_LATEST
