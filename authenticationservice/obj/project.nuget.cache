@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WSWBQ0mvKWZIiUxuYm2WprYidqRXHOxeeENJU3wDJchblOa8MTuLBuAqw8/JhrTXlB7Sw96ZS/c7Zblj88qLWQ==",
+  "dgSpecHash": "JxetyuJwXHABc8eckfuWdfF5tVYk1U8nUwbOYEiXBJKoltow1wapPrUj1t8x6CDc7pFAUJJ9wpEBjRCJfJzvfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\authenticationservice.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
-    "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
+    "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.4\\microsoft.aspnetcore.authentication.jwtbearer.3.1.4.nupkg.sha512",
     "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.2.0\\microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
     "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
     "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",

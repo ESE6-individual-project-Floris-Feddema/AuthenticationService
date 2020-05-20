@@ -55,8 +55,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,42 +88,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/1/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/HasherTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/ExtentionsMethodsTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/1/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/TokenGeneratorTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/ExtentionsMethodsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/HasherTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserRegisterView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/Hasher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserLoginView.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -187,7 +208,7 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
     <configuration name="authenticationservice: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -202,17 +223,17 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
     <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="imageTag" value="" />
           <option name="buildCliOptions" value="" />
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="" />
           <option name="commandLineOptions" value="--rm" />
           <option name="sourceFilePath" value="authenticationservice/Dockerfile" />
         </settings>
@@ -246,11 +267,18 @@
       <workItem from="1587555300957" duration="5198000" />
       <workItem from="1587650470753" duration="1261000" />
       <workItem from="1587651761628" duration="4317000" />
+      <workItem from="1589357009656" duration="2082000" />
+      <workItem from="1589368478115" duration="2295000" />
+      <workItem from="1589449609327" duration="3160000" />
+      <workItem from="1589494858076" duration="327000" />
+      <workItem from="1589529126295" duration="275000" />
+      <workItem from="1589967011593" duration="12000" />
+      <workItem from="1589985621687" duration="784000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnitTestsCoverage.Settings">
     <option name="coveragePercentColumnWidth" value="118" />
@@ -274,13 +302,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -290,11 +317,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1231" y="178" key="#Docker/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586275217992" />
-    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587651918410">
+    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589357119735">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="-1369" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586275291650" />
-    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587651918410" />
+    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1589357119735" />
     <state x="1028" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586280783089">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -303,26 +330,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="440" height="466" key="DebuggerActiveHint/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587653493898" />
-    <state width="1878" height="423" key="GridCell.Tab.0.bottom" timestamp="1587847745198">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1058" height="238" key="GridCell.Tab.0.bottom" timestamp="1589494662758">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1878" height="423" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745198" />
-    <state width="1258" height="262" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
-    <state width="1878" height="423" key="GridCell.Tab.0.center" timestamp="1587847745197">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1058" height="238" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1589494662758" />
+    <state width="1058" height="238" key="GridCell.Tab.0.center" timestamp="1589494662757">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1878" height="423" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745197" />
-    <state width="1258" height="262" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
-    <state width="1878" height="423" key="GridCell.Tab.0.left" timestamp="1587847745196">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1058" height="238" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1589494662757" />
+    <state width="1058" height="238" key="GridCell.Tab.0.left" timestamp="1589494662757">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1878" height="423" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745196" />
-    <state width="1258" height="262" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
-    <state width="1878" height="423" key="GridCell.Tab.0.right" timestamp="1587847745197">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1058" height="238" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1589494662757" />
+    <state width="1058" height="238" key="GridCell.Tab.0.right" timestamp="1589494662758">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1878" height="423" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587847745197" />
-    <state width="1258" height="262" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587656081626" />
+    <state width="1058" height="238" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1589494662758" />
     <state width="1878" height="423" key="GridCell.Tab.1.bottom" timestamp="1587847745200">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

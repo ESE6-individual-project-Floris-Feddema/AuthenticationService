@@ -910,3 +910,4 @@ zsdoc/data
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 
 # End of https://www.gitignore.io/api/osx,zsh,rider,linux,macos,sonar,csharp,windows,jetbrains,sonarqube,dotnetcore,aspnetcore,visualstudio,visualstudiocode
+authenticationservice/appsettings.json
