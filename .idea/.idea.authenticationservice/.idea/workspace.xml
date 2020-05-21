@@ -55,29 +55,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,6 +254,9 @@
       <workItem from="1589529126295" duration="275000" />
       <workItem from="1589967011593" duration="12000" />
       <workItem from="1589985621687" duration="784000" />
+      <workItem from="1589991263274" duration="8000" />
+      <workItem from="1590001639061" duration="17000" />
+      <workItem from="1590096619025" duration="40000" />
     </task>
     <servers />
   </component>

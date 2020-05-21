@@ -8,4 +8,4 @@ WORKDIR /app
 COPY /release ./
 
 # Execute the program dll
-ENTRYPOINT ["dotnet", "AuthenticationService.dll"]
+ENTRYPOINT ["dotnet", "authenticationservice.dll"]
