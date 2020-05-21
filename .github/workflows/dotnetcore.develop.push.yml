@@ -107,6 +107,7 @@ jobs:
             ./kube_development/kube_deployment.yaml
             ./kube_development/kube_ingress.yaml
             ./kube_development/kube_service.yaml
+            ./kube_development/kube_autoscaler.yaml
           images: |
             docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:${{ github.sha }}
           imagepullsecrets:
