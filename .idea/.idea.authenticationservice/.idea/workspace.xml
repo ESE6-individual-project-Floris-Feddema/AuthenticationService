@@ -55,6 +55,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
     </list>
@@ -72,7 +73,6 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
@@ -256,6 +256,7 @@
       <workItem from="1590001639061" duration="17000" />
       <workItem from="1590096619025" duration="40000" />
       <workItem from="1590414934360" duration="87000" />
+      <workItem from="1590421931186" duration="487000" />
     </task>
     <servers />
   </component>
