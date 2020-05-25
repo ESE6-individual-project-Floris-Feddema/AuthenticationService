@@ -84,6 +84,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "S652.MessageBroker": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             }
           },
           "imports": [
