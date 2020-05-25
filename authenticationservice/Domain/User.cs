@@ -1,7 +1,7 @@
 using System;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace authenticationservice
+namespace authenticationservice.Domain
 {
     public class User
     {
@@ -11,5 +11,8 @@ namespace authenticationservice
         public string Email {get; set;}
         public string OauthSubject {get; set;}
         public string OauthIssuer {get; set;}
+        public byte[] Password { get; set; }
+        public byte[] Salt { get; set; }
+        public string Token { get; set; }
     }
 }

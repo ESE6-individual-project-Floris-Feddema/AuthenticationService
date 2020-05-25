@@ -9,30 +9,36 @@
     <e p="C:\Users\Floris\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
     <e p="C:\Users\Floris\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="C:\Users\Floris\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\Floris\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Floris\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_authenticationservice.1940923907.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Floris\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Floris\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_authenticationservice.1940923907.00" t="ExcludeRecursive" />
     <e p="C:\Users\Floris\Documents\repos\authenticationservice" t="IncludeFlat">
-      <e p=".dockerignore" t="Include" />
       <e p="authenticationservice" t="IncludeRecursive">
-        <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
+        <e p="appsettings.development.json.gpg" t="Include" />
         <e p="authenticationservice.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="AuthenticationController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
         </e>
         <e p="DatastoreSettings" t="Include">
           <e p="UserstoreDatabaseSettings.cs" t="Include" />
         </e>
-        <e p="Dockerfile" t="Include" />
         <e p="Domain" t="Include">
           <e p="AppSettings.cs" t="Include" />
           <e p="User.cs" t="Include" />
-          <e p="WeatherForecast.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="AlreadyExistsException.cs" t="Include" />
+          <e p="NotFoundException.cs" t="Include" />
+          <e p="NotValidException.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
-          <e p="Security.cs" t="Include" />
+          <e p="ExtentionMethods.cs" t="Include" />
+          <e p="Hasher.cs" t="Include" />
+          <e p="IHasher.cs" t="Include" />
+          <e p="ITokenGenerator.cs" t="Include" />
+          <e p="IUserValidator.cs" t="Include" />
+          <e p="TokenGenerator.cs" t="Include" />
+          <e p="UserValidator.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -50,11 +56,13 @@
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
-          <e p="AuthService.cs" t="Include" />
-          <e p="IAuthService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
+          <e p="UserLoginView.cs" t="Include" />
+          <e p="UserRegisterView.cs" t="Include" />
           <e p="UserView.cs" t="Include" />
         </e>
       </e>
@@ -62,6 +70,15 @@
       <e p="authenticationservicetest" t="IncludeRecursive">
         <e p="authenticationservicetest.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="ExtentionsMethodsTest.cs" t="Include" />
+          <e p="HasherTest.cs" t="Include" />
+          <e p="TokenGeneratorTest.cs" t="Include" />
+          <e p="UserValidator.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -69,7 +86,12 @@
             </e>
           </e>
         </e>
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="UserRepositoryTest.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="UserServiceTest.cs" t="Include" />
+        </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>

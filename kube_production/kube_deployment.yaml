@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: authenticationservice
+  namespace: plandar-production
+  labels:
+    app: authenticationservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: authenticationservice
+  template:
+    metadata:
+      labels:
+        app: authenticationservice
+    spec:
+      containers:
+      - image: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice
+        imagePullPolicy: IfNotPresent
+        name: authenticationservice
+        ports: 
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: 100m
+            memory: 128Mi
+          requests:
+            cpu: 50m
+            memory: 64Mi
+      imagePullSecrets:
+      - name: github-docker-registry

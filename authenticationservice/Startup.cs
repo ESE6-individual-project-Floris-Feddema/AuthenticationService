@@ -1,5 +1,7 @@
 using System.Text;
 using authenticationservice.DatastoreSettings;
+using authenticationservice.Domain;
+using authenticationservice.Helpers;
 using authenticationservice.Repositories;
 using authenticationservice.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -26,7 +28,9 @@ namespace authenticationservice
         {
 
             services.AddCors();
-
+            
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+            
             services.AddAuthentication(x =>
                 {
                     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -42,10 +46,15 @@ namespace authenticationservice
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["AppSettings:JwtSecret"])),
                         ValidateIssuer = false,
                         ValidateAudience = false,
+                        ValidateLifetime = true,
                     };
                 });
             
-            services.AddTransient<IAuthService, AuthService>();
+            services.AddTransient<IHasher, Hasher>();
+            services.AddTransient<ITokenGenerator, TokenGenerator>();
+            services.AddTransient<IUserValidator, UserValidator>();
+
+            services.AddTransient<IUserService, UserService>();
 
             services.AddTransient<IUserRepository, UserRepository>();
             
@@ -70,13 +79,12 @@ namespace authenticationservice
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseCors(x => x
-                .WithOrigins("0.0.0.0")
+                .AllowAnyOrigin()
                 .AllowAnyHeader()
                 .AllowAnyMethod()
-                .AllowCredentials()
             );
             
             app.UseRouting();

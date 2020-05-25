@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata: 
+  name: authentication-ingress
+  namespace: plandar-production
+  annotations: 
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt-production"    
+    nginx.ingress.kubernetes.io/ssl-passthrough: "false"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  rules:
+  - host: authentication.plandar.nl
+    http:
+      paths:
+      - backend:
+          serviceName: authenticationservice
+          servicePort: 80
+  tls:
+  - hosts:
+    - authentication.plandar.nl
+    secretName: production-authenticationservice-plandar-tls
+status:
+  loadBalancer:
+    ingress:
+     - ip: 207.180.252.77

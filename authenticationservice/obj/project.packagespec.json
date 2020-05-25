@@ -7,7 +7,6 @@
     "outputPath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
@@ -35,6 +34,10 @@
           "target": "Package",
           "version": "[1.44.1, )"
         },
+        "Konscious.Security.Cryptography.Argon2": {
+          "target": "Package",
+          "version": "[1.2.1, )"
+        },
         "Microsoft.AspNetCore.Authentication": {
           "target": "Package",
           "version": "[2.2.0, )"
@@ -45,7 +48,7 @@
         },
         "Microsoft.AspNetCore.Authentication.JwtBearer": {
           "target": "Package",
-          "version": "[3.1.3, )"
+          "version": "[3.1.4, )"
         },
         "Microsoft.EntityFrameworkCore": {
           "target": "Package",
@@ -67,13 +70,13 @@
           "target": "Package",
           "version": "[2.10.2, )"
         },
-        "Moq": {
-          "target": "Package",
-          "version": "[4.13.1, )"
-        },
         "Newtonsoft.Json": {
           "target": "Package",
           "version": "[12.0.3, )"
+        },
+        "S652.MessageBroker": {
+          "target": "Package",
+          "version": "[1.2.1, )"
         }
       },
       "imports": [
