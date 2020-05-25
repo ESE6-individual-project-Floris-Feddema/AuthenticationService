@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Get configuration
-        run: gpg --quiet --batch --yes --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output ./authenticationservice/appsettings.json --decrypt ./authenticationservice/appsettings.json.gpg
+        run: gpg --quiet --batch --yes --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output ./authenticationservice/appsettings.json --decrypt ./authenticationservice/appsettings.development.json.gpg
 
       # Install the dependencies needed for the project
       - name: Install dependencies
