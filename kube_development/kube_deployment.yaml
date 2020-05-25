@@ -23,10 +23,10 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            cpu: 100m
-            memory: 128Mi
+            cpu: 400m
+            memory: 800Mi
           requests:
-            cpu: 50m
-            memory: 64Mi
+            cpu: 200m
+            memory: 400Mi
       imagePullSecrets:
       - name: github-docker-registry
