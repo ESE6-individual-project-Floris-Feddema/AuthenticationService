@@ -14,7 +14,6 @@
     <e p="C:\Users\Floris\Documents\repos\authenticationservice" t="IncludeFlat">
       <e p="authenticationservice" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
         <e p="appsettings.json.gpg" t="Include" />
         <e p="authenticationservice.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
