@@ -55,9 +55,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kube_production/kube_autoscaler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kube_production/kube_certificate.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kube_production/kube_deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kube_production/kube_ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kube_production/kube_service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dotnetcore.develop.push.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnetcore.develop.push.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dotnetcore.master.push.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnetcore.master.push.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json.gpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.json.gpg" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.development.json.gpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +176,7 @@
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35084426" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30018762" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -257,6 +267,7 @@
       <workItem from="1590096619025" duration="40000" />
       <workItem from="1590414934360" duration="87000" />
       <workItem from="1590421931186" duration="2205000" />
+      <workItem from="1590430818564" duration="636000" />
     </task>
     <servers />
   </component>
@@ -305,10 +316,10 @@
     </state>
     <state x="-1369" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586275291650" />
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1589357119735" />
-    <state x="1028" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590424941093">
+    <state x="1028" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590430832516">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1028" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1590424941093" />
+    <state x="1028" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1590430832516" />
     <state width="440" height="466" key="DebuggerActiveHint" timestamp="1587653493898">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

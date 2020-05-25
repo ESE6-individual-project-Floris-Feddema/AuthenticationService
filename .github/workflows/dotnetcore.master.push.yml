@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Get configuration
-        run: gpg --quiet --batch --yes --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output ./authenticationservice/appsettings.json --decrypt ./authenticationservice/appsettings.json.gpg
+        run: gpg --quiet --batch --yes --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output ./authenticationservice/appsettings.json --decrypt ./authenticationservice/appsettings.production.json.gpg
 
       # Install the dependencies needed for the project
       - name: Install dependencies
@@ -46,6 +46,11 @@ jobs:
         with:
           name: dockerfile-artifact
           path: ./Dockerfile
+      - name: Upload kubernetes artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: kubernetes-artifact
+          path: ./kube_production
   deliver:
     needs: build
     runs-on: ubuntu-18.04
@@ -61,13 +66,50 @@ jobs:
         with:
           name: dockerfile-artifact
           path: .
-      # Deliver Docker image to Github packages
+      # Deliver Docker image to Github Packages
       - name: Deliver Docker image
         env:
           CONTAINER_IMAGE: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:${{ github.sha }}
-          CONTAINER_IMAGE_LATEST: docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:latest
         run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ secrets.DOCKER_GITHUB_USERNAME }} --password-stdin
-          docker build -t $CONTAINER_IMAGE -t $CONTAINER_IMAGE_LATEST .
+          echo "${{ secrets.GITHUB_TOKEN }}"| docker login docker.pkg.github.com -u ${{ secrets.DOCKER_GITHUB_USERNAME }} --password-stdin
+          docker build -t $CONTAINER_IMAGE .
           docker push $CONTAINER_IMAGE
-          docker push $CONTAINER_IMAGE_LATEST
+  deploy:
+    needs: deliver
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Download kubernetes artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: kubernetes-artifact
+          path: ./kube_production
+
+      - uses: Azure/setup-kubectl@v1
+
+      - uses: Azure/k8s-set-context@v1
+        with:
+          method: kubeconfig
+          kubeconfig: ${{ secrets.KUBE_CONFIG }}
+
+      - uses: Azure/k8s-create-secret@v1
+        with:
+          namespace: plandar-production
+          container-registry-url: docker.pkg.github.com
+          container-registry-username: ${{ secrets.DOCKER_GITHUB_USERNAME }}
+          container-registry-password: ${{ secrets.GITHUB_TOKEN }}
+          secret-name: github-docker-registry
+
+      - uses: Azure/k8s-deploy@v1
+        with:
+          namespace: plandar-production
+          manifests: |
+            ./kube_production/kube_certificate.yaml
+            ./kube_production/kube_deployment.yaml
+            ./kube_production/kube_ingress.yaml
+            ./kube_production/kube_service.yaml
+            ./kube_production/kube_autoscaler.yaml
+          images: |
+            docker.pkg.github.com/ese6-individual-project-floris-feddema/authenticationservice/authenticationservice:${{ github.sha }}
+          imagepullsecrets:
+            github-docker-registry
+            
