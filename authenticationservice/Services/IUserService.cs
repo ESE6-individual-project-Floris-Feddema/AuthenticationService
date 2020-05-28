@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using authenticationservice.Controllers;
 using authenticationservice.Domain;
+using authenticationservice.Views;
 
 namespace authenticationservice.Services
 {
@@ -37,5 +39,13 @@ namespace authenticationservice.Services
         /// <param name="viewTokenId">The tokenId of a valid Google OAuth user</param>
         /// <returns>The user including jwt and without OAuth information</returns>
         Task<User> LoginGoogle(string viewTokenId);
+
+        /// <summary>
+        /// Updates a users name to a new value
+        /// </summary>
+        /// <param name="id">Id of the user to update</param>
+        /// <param name="name">New name</param>
+        /// <returns>Updated user object</returns>
+        Task<User> Update(Guid id, string name);
     }
 }

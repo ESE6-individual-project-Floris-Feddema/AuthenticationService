@@ -1,6 +1,7 @@
 using System;
 using authenticationservice.Domain;
 using authenticationservice.Helpers;
+using authenticationservice.Settings;
 using Microsoft.Extensions.Options;
 using Moq;
 using Xunit;

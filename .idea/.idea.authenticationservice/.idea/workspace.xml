@@ -55,8 +55,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Settings/MessageQueueSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/Views/UpdateAccountView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/appsettings.development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationservice/appsettings.production.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Settings/UserstoreDatabaseSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Settings/AppSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.development.json.gpg" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.development.json.gpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservicetest/Helpers/TokenGeneratorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/Helpers/TokenGeneratorTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +100,15 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UpdateAccountView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Settings/MessageQueueSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.production.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/1/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
@@ -92,9 +124,9 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Settings/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/DatastoreSettings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/Settings/UserstoreDatabaseSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/ExtentionsMethodsTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/HasherTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -130,7 +162,6 @@
         <option value="$PROJECT_DIR$/authenticationservicetest/Helpers/HasherTest.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Services.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/TokenGenerator.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Domain/AppSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Helpers/TokenGeneratorTest.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Controllers/UserController.cs" />
@@ -138,18 +169,23 @@
         <option value="$PROJECT_DIR$/authenticationservice/Repositories/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Repositories/UserRepositoryTest.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" />
-        <option value="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotFoundException.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Exceptions/AlreadyExistsException.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Exceptions/NotValidException.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" />
         <option value="$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" />
-        <option value="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
+        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Settings/UserstoreDatabaseSettings.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Settings/MessageQueueSettings.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/appsettings.development.json" />
+        <option value="$PROJECT_DIR$/authenticationservice/Views/UpdateAccountView.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" />
       </list>
     </option>
   </component>
@@ -259,6 +295,10 @@
       <workItem from="1590421931186" duration="2205000" />
       <workItem from="1590430818564" duration="636000" />
       <workItem from="1590440407318" duration="4000" />
+      <workItem from="1590441584214" duration="7000" />
+      <workItem from="1590582109778" duration="1901000" />
+      <workItem from="1590672226371" duration="1538000" />
+      <workItem from="1590673803671" duration="45000" />
     </task>
     <servers />
   </component>
@@ -433,10 +473,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="404" height="448" key="SwitcherDM/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1586435160765" />
-    <state x="100" y="100" width="1490" height="840" key="VCS.FileHistoryDialog" timestamp="1587652142899">
+    <state x="100" y="100" width="1490" height="840" key="VCS.FileHistoryDialog" timestamp="1590673765032">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="100" y="100" width="1490" height="840" key="VCS.FileHistoryDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1587652142899" />
+    <state x="100" y="100" width="1490" height="840" key="VCS.FileHistoryDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1590673765032" />
     <state x="-1920" y="0" width="1936" height="1027" key="dock-window-1" timestamp="1586423083014">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

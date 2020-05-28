@@ -1,4 +1,4 @@
-namespace authenticationservice.Domain
+namespace authenticationservice.Settings
 {
     public class AppSettings
     {

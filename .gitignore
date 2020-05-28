@@ -911,3 +911,5 @@ zsdoc/data
 
 # End of https://www.gitignore.io/api/osx,zsh,rider,linux,macos,sonar,csharp,windows,jetbrains,sonarqube,dotnetcore,aspnetcore,visualstudio,visualstudiocode
 authenticationservice/appsettings.json
+authenticationservice/appsettings.production.json
+authenticationservice/appsettings.development.json
