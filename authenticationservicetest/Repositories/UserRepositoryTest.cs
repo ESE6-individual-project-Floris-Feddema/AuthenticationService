@@ -1,8 +1,8 @@
 using System;
 using System.Text;
-using authenticationservice.DatastoreSettings;
 using authenticationservice.Domain;
 using authenticationservice.Repositories;
+using authenticationservice.Settings;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Mongo2Go;
 using Xunit;

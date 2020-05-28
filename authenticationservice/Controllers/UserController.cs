@@ -75,5 +75,21 @@ namespace authenticationservice.Controllers
                 return BadRequest(e.Message);
             }
         }
+        
+        [Authorize]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateAccount(Guid id, [FromBody]UpdateAccountView account)
+        {
+            try
+            {
+                var result = await _service.Update(id, account.Name);
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            
+        }
     }
 }

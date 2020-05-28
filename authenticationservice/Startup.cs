@@ -1,9 +1,10 @@
 using System.Text;
-using authenticationservice.DatastoreSettings;
 using authenticationservice.Domain;
 using authenticationservice.Helpers;
 using authenticationservice.Repositories;
 using authenticationservice.Services;
+using authenticationservice.Settings;
+using MessageBroker;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -49,6 +50,9 @@ namespace authenticationservice
                         ValidateLifetime = true,
                     };
                 });
+            
+            services.Configure<MessageQueueSettings>(Configuration.GetSection("MessageQueueSettings"));
+            services.AddMessagePublisher(Configuration["MessageQueueSettings:Uri"]);
             
             services.AddTransient<IHasher, Hasher>();
             services.AddTransient<ITokenGenerator, TokenGenerator>();
