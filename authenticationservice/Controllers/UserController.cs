@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using authenticationservice.Helpers;
 using authenticationservice.Services;
 using authenticationservice.Views;
 using Microsoft.AspNetCore.Authorization;
@@ -24,7 +25,7 @@ namespace authenticationservice.Controllers
             try
             {
                 var user = await _service.Insert(view.Name, view.Email, view.Password);
-                return Ok(user);
+                return Ok(user.ToPrivateDto());
             }
             catch (Exception e)
             {
@@ -38,7 +39,7 @@ namespace authenticationservice.Controllers
             try
             {
                 var user = await _service.InsertGoogle(view.TokenId);
-                return Ok(user);
+                return Ok(user.ToPrivateDto());
             }
             catch (Exception e)
             {
@@ -53,7 +54,7 @@ namespace authenticationservice.Controllers
             try
             {
                 var user = await _service.Login(view.Email, view.Password);
-                return Ok(user);
+                return Ok(user.ToPrivateDto());
             }
             catch (Exception e)
             {
@@ -68,28 +69,40 @@ namespace authenticationservice.Controllers
             try
             {
                 var user = await _service.LoginGoogle(view.TokenId);
-                return Ok(user);
+                return Ok(user.ToPrivateDto());
             }
             catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
         }
-        
+
         [Authorize]
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateAccount(Guid id, [FromBody]UpdateAccountView account)
+        public async Task<IActionResult> UpdateAccount(Guid id, [FromBody] UpdateAccountView account)
         {
             try
             {
                 var result = await _service.Update(id, account.Name);
-                return Ok(result);
+                return Ok(result.ToPrivateDto());
             }
             catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
-            
+        }
+
+        public async Task<IActionResult> GetUser(string email)
+        {
+            try
+            {
+                var result = await _service.Get(email);
+                return Ok(result.ToPublicDto());
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
     }
 }

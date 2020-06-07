@@ -47,5 +47,7 @@ namespace authenticationservice.Services
         /// <param name="name">New name</param>
         /// <returns>Updated user object</returns>
         Task<User> Update(Guid id, string name);
+
+        Task<User> Get(string email);
     }
 }

@@ -22,6 +22,10 @@
         <e p="Controllers" t="Include">
           <e p="UserController.cs" t="Include" />
         </e>
+        <e p="DataTransferObjects" t="Include">
+          <e p="PrivateUserDto.cs" t="Include" />
+          <e p="PublicUserDto.cs" t="Include" />
+        </e>
         <e p="Domain" t="Include">
           <e p="User.cs" t="Include" />
         </e>

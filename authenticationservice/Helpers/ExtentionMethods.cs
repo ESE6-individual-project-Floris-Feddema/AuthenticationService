@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using authenticationservice.DataTransferObjects;
 using authenticationservice.Domain;
 
 namespace authenticationservice.Helpers
@@ -19,6 +20,27 @@ namespace authenticationservice.Helpers
             user.OauthIssuer = null;
             user.Salt = null;
             return user;
+        }
+
+        public static PrivateUserDto ToPrivateDto(this User user)
+        {
+            return new PrivateUserDto()
+            {
+                Email = user.Email,
+                Id = user.Id,
+                Name = user.Name,
+                Token = user.Token
+            };
+        }
+        
+        public static PublicUserDto ToPublicDto(this User user)
+        {
+            return new PublicUserDto()
+            {
+                Email = user.Email,
+                Id = user.Id,
+                Name = user.Name,
+            };
         }
     }
 }
