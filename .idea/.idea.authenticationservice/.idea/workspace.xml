@@ -8,11 +8,6 @@
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
@@ -55,19 +50,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticationservice/DataTransferObjects/PrivateUserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationservice/DataTransferObjects/PublicUserDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.exe" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,16 +76,16 @@
     <setting file="file://$PROJECT_DIR$/authenticationservice/appsettings.development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/DataTransferObjects/PublicUserDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0E0410C-165A-46C5-BF1E-798A4B6D4EAD/1/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Services/UserServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservicetest/Helpers/TokenGeneratorTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/DataTransferObjects/PublicUserDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/authenticationservice/DataTransferObjects/PrivateUserDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/UserValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/IUserValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/authenticationservice/DataTransferObjects/PrivateUserDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Views/UserView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/obj/project.packagespec.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/authenticationservice/Helpers/ExtentionMethods.cs" root0="FORCE_HIGHLIGHTING" />

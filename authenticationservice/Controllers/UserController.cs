@@ -92,6 +92,8 @@ namespace authenticationservice.Controllers
             }
         }
 
+        [AllowAnonymous]
+        [HttpGet("{email}")]
         public async Task<IActionResult> GetUser(string email)
         {
             try
