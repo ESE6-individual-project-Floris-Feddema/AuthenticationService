@@ -128,5 +128,16 @@ namespace authenticationservice.Services
             
             return user;
         }
+
+        public async Task<User> Get(string email)
+        {
+            var user = await _repository.Get(email);
+            if (user == null)
+            {
+                throw new NotFoundException("There is no user with this email");
+            }
+
+            return user;
+        }
     }
 }

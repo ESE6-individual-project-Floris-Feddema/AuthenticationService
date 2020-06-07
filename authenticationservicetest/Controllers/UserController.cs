@@ -2,6 +2,7 @@ using System;
 using System.Text;
 using System.Threading.Tasks;
 using authenticationservice.Controllers;
+using authenticationservice.DataTransferObjects;
 using authenticationservice.Domain;
 using authenticationservice.Services;
 using authenticationservice.Views;
@@ -60,7 +61,7 @@ namespace authenticationservicetest.Controllers
             Assert.NotNull(result);
             Assert.NotNull(data);
             Assert.IsType<OkObjectResult>(result);
-            Assert.Equal(user.Id, ((User) data.Value).Id);
+            Assert.Equal(user.Id, ((PrivateUserDto) data.Value).Id);
         }
 
         [Fact]
@@ -126,7 +127,7 @@ namespace authenticationservicetest.Controllers
             Assert.NotNull(result);
             Assert.NotNull(data);
             Assert.IsType<OkObjectResult>(result);
-            Assert.Equal(user.Id, ((User) data.Value).Id);
+            Assert.Equal(user.Id, ((PrivateUserDto) data.Value).Id);
         }
 
         [Fact]
@@ -188,7 +189,7 @@ namespace authenticationservicetest.Controllers
             Assert.NotNull(result);
             Assert.NotNull(data);
             Assert.IsType<OkObjectResult>(result);
-            Assert.Equal(user.Id, ((User) data.Value).Id);
+            Assert.Equal(user.Id, ((PrivateUserDto) data.Value).Id);
         }
 
         [Fact]
@@ -252,7 +253,7 @@ namespace authenticationservicetest.Controllers
             Assert.NotNull(result);
             Assert.NotNull(data);
             Assert.IsType<OkObjectResult>(result);
-            Assert.Equal(user.Id, ((User) data.Value).Id);
+            Assert.Equal(user.Id, ((PrivateUserDto) data.Value).Id);
         }
 
         [Fact]
