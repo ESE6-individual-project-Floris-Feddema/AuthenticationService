@@ -51,16 +51,10 @@
   <component name="ChangeListManager">
     <list default="true" id="584aa144-dc9e-4e83-8168-664b45ce7b68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.authenticationservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.development.json.gpg" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.development.json.gpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/appsettings.production.json.gpg" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/appsettings.production.json.gpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/authenticationservice.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/bin/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/Debug/netcoreapp3.1/authenticationservice.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/authenticationservice.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationservice/obj/project.nuget.cache" afterDir="false" />
@@ -153,7 +147,6 @@
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/ITokenGenerator.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Helpers/IHasher.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.json" />
-        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Settings/UserstoreDatabaseSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Settings/MessageQueueSettings.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/Views/UpdateAccountView.cs" />
@@ -169,6 +162,7 @@
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.development.json" />
         <option value="$PROJECT_DIR$/authenticationservice/Program.cs" />
         <option value="$PROJECT_DIR$/authenticationservice/appsettings.production.json" />
+        <option value="$PROJECT_DIR$/authenticationservice/Startup.cs" />
       </list>
     </option>
   </component>
@@ -290,6 +284,7 @@
       <workItem from="1591865114245" duration="1436000" />
       <workItem from="1591874905764" duration="66000" />
       <workItem from="1591883798854" duration="147000" />
+      <workItem from="1591906793787" duration="730000" />
     </task>
     <servers />
   </component>

@@ -21,6 +21,20 @@ spec:
         name: authenticationservice
         ports: 
         - containerPort: 80
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 15
+          periodSeconds: 15
+        livenessProbe:
+          httpGet:
+            path: /health/live
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 15
+          periodSeconds: 15
         resources:
           limits:
             cpu: 400m

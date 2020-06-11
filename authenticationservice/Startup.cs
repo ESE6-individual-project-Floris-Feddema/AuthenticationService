@@ -1,3 +1,4 @@
+using System;
 using System.Text;
 using authenticationservice.Domain;
 using authenticationservice.Helpers;
@@ -7,9 +8,12 @@ using authenticationservice.Settings;
 using MessageBroker;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Routing.Matching;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -70,6 +74,11 @@ namespace authenticationservice
 
 
             services.AddControllers();
+
+            services.AddHealthChecks()
+                .AddCheck("healthy", () => HealthCheckResult.Healthy(), new[] {"ready"})
+                .AddMongoDb(Configuration["UserstoreDatabaseSettings:ConnectionString"], tags: new []{"services"})
+                .AddRabbitMQ(new Uri(Configuration["MessageQueueSettings:Uri"]), tags: new[] {"services"});
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -99,6 +108,17 @@ namespace authenticationservice
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
+                endpoints.MapHealthChecks("/health/ready", new HealthCheckOptions()
+                {
+                    Predicate = (check) => check.Tags.Contains("ready"),
+                });
+
+                endpoints.MapHealthChecks("/health/live", new HealthCheckOptions()
+                {
+                    Predicate = (check) => check.Tags.Contains("services")
+                });
+
             });
         }
     }
