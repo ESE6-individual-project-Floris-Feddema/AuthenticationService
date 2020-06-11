@@ -71,13 +71,12 @@ namespace authenticationservice
 
             services.AddSingleton<IUserstoreDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<UserstoreDatabaseSettings>>().Value);
-
-
+            
             services.AddControllers();
 
             services.AddHealthChecks()
                 .AddCheck("healthy", () => HealthCheckResult.Healthy(), new[] {"ready"})
-                .AddMongoDb(Configuration["UserstoreDatabaseSettings:ConnectionString"], tags: new []{"services"})
+                //.AddMongoDb(Configuration["UserstoreDatabaseSettings:ConnectionString"], tags: new []{"services"})
                 .AddRabbitMQ(new Uri(Configuration["MessageQueueSettings:Uri"]), tags: new[] {"services"});
         }
 
