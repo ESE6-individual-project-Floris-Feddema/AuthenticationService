@@ -15,6 +15,7 @@
       <e p="authenticationservice" t="IncludeRecursive">
         <e p="appsettings.development.json" t="Include" />
         <e p="appsettings.development.json.gpg" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="appsettings.production.json" t="Include" />
         <e p="appsettings.production.json.gpg" t="Include" />
         <e p="authenticationservice.csproj" t="IncludeRecursive" />
