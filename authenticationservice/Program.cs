@@ -15,6 +15,7 @@ namespace authenticationservice
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseSentry();
                 });
     }
 }
