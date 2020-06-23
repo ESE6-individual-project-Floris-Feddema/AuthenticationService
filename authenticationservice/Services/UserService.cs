@@ -4,7 +4,10 @@ using authenticationservice.Domain;
 using authenticationservice.Exceptions;
 using authenticationservice.Helpers;
 using authenticationservice.Repositories;
+using authenticationservice.Settings;
 using Google.Apis.Auth;
+using MessageBroker;
+using Microsoft.Extensions.Options;
 
 namespace authenticationservice.Services
 {
@@ -14,13 +17,19 @@ namespace authenticationservice.Services
         private readonly IHasher _hasher;
         private readonly ITokenGenerator _tokenGenerator;
         private readonly IUserValidator _userValidator;
+        private readonly MessageQueueSettings _messageQueueSettings;
+        private readonly IMessageQueuePublisher _messageQueuePublisher;
         
-        public UserService(IUserRepository repository, IHasher hasher, ITokenGenerator tokenGenerator, IUserValidator userValidator)
+        public UserService(IUserRepository repository, IHasher hasher, 
+            ITokenGenerator tokenGenerator, IUserValidator userValidator,
+            IOptions<MessageQueueSettings> messageQueueSettings, IMessageQueuePublisher messageQueuePublisher)
         {
             _repository = repository;
             _hasher = hasher;
             _tokenGenerator = tokenGenerator;
             _userValidator = userValidator;
+            _messageQueuePublisher = messageQueuePublisher;
+            _messageQueueSettings = messageQueueSettings.Value;
         }
 
         public async Task<User> Insert(string viewName, string viewEmail, string viewPassword)
@@ -100,6 +109,34 @@ namespace authenticationservice.Services
             if (user == null) throw new NotValidException("The given information is not correct");
 
             user.Token = _tokenGenerator.CreateToken(user.Id);
+            return user;
+        }
+
+        public async Task<User> Update(Guid id, string name)
+        {
+            var user = await _repository.Get(id);
+            if (user.Name == name )
+            {
+                return user;
+            }
+
+            user.Name = name;
+            await _repository.Update(id, user);
+
+            await _messageQueuePublisher.PublishMessageAsync(_messageQueueSettings.Exchange,
+                "CompanyService", "ChangeUser", new {userId = user.Id, name = user.Name});
+            
+            return user;
+        }
+
+        public async Task<User> Get(string email)
+        {
+            var user = await _repository.Get(email);
+            if (user == null)
+            {
+                throw new NotFoundException("There is no user with this email");
+            }
+
             return user;
         }
     }

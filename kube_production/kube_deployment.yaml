@@ -21,12 +21,26 @@ spec:
         name: authenticationservice
         ports: 
         - containerPort: 80
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 15
+          periodSeconds: 15
+        livenessProbe:
+          httpGet:
+            path: /health/live
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 15
+          periodSeconds: 15
         resources:
           limits:
-            cpu: 100m
-            memory: 128Mi
+            cpu: 400m
+            memory: 800Mi
           requests:
-            cpu: 50m
-            memory: 64Mi
+            cpu: 200m
+            memory: 400Mi
       imagePullSecrets:
       - name: github-docker-registry
