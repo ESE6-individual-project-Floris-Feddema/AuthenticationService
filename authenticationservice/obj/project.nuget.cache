@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HKlWpjbP6mNhR/AnRs39wAwmjb8bwQhgpu8gWAyRqKkOcIkyGN5mLovLcl0QrO21u8oTeJHZydnnukj5aq0aeA==",
+  "dgSpecHash": "81iyDFE6mZvKY99L/gQkrETB5RUtm2jPKdsXHa6z7iCloYfxwbLHZI2MOExNV40fBbJFR3ZedNmZxT8EwuB1jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Floris\\Documents\\repos\\authenticationservice\\authenticationservice\\authenticationservice.csproj",
   "expectedPackageFiles": [
@@ -191,8 +191,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Floris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
